@@ -1,0 +1,39 @@
+:root {
+    --primary-color: #0A1128;
+    --white-color: #FFFFFF;
+    --light-gray-color: #EEEEEE;
+    --secondary-color: crimson;
+    --gap: 3rem;
+}
+#footer {
+    text-align: center;
+    font-size: 1.6rem;
+}
+#footer a {
+    color: var(--primary-color);
+}
+.heart {
+    color: var(--secondary-color);
+}
+.footer p {
+    margin: 0;
+    padding: 3rem;
+}
+.close-menu {
+    display: none;  
+}
+.back-to-top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background: var(--white-color);
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: var(--primary-color);
+    border: 0.1rem solid var(--primary-color);
+}
+
